@@ -22,13 +22,8 @@ class NodeEditor(Element, component='NodeEditor.js'):#, exposed_libraries=['./fl
     def create_n1(self):
         self.run_method('create_n1')
 
-# ui.add_css("flow.css")
-# TODO: fix accessing font woff2
-# ui.add_css("fonts/open-sans/open-sans.css")
-# ui.add_css("fonts/tabler-icons/tabler-icons.css")
-
 objFlow = NodeEditor()
-print(objFlow._props)
+# print(objFlow._props)
 print(nicegui.dependencies.resources)
 
     # <link rel="stylesheet" href="{objFlow._props["resource_path"]}/flow.css" type="text/css"/>
