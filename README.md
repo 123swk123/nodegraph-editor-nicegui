@@ -1,5 +1,7 @@
 # Node graph editor using vue/node and nicegui/python
 
+This component based on [flow](https://github.com/sunag/flow)
+
 ![Node Graph Editor](docs/node-graphp-editor.gif)
 
 ## Using vue/nodejs

@@ -16,5 +16,32 @@
 		},
 		"editor.formatOnSave": true
 		// "editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "run-python-flow-nicegui",
+				"command": "cd src && d:/papps/winpy/31230/python-3.12.3.amd64/python.exe ./try-1.py",
+				"type": "shell",
+				// "args": [
+				// 	"./try-1.py"
+				// ],
+				"problemMatcher": [
+					"$tsc"
+				],
+				"presentation": {
+					"reveal": "always"
+				},
+				"group": "none"
+			}
+		]
+	},
+	"extensions": {
+		"recommendations": [
+			"Vue.volar",
+			"dbaeumer.vscode-eslint"
+			// "esbenp.prettier-vscode"
+		]
 	}
 }
